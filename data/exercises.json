@@ -1,0 +1,1128 @@
+{
+  "exercises": [
+    {
+      "id": "chest_01",
+      "name": { "en": "Barbell Bench Press", "es": "Press de Banca con Barra" },
+      "equipment": "barbell, flat bench",
+      "primary": ["chest"],
+      "secondary": ["triceps", "shoulders"],
+      "form": {
+        "en": "Lie flat on bench, grip bar slightly wider than shoulder width. Lower bar to mid-chest, press up to full lockout. Keep feet flat and shoulder blades retracted.",
+        "es": "Acuéstate en el banco, agarra la barra un poco más ancho que los hombros. Baja la barra al pecho medio, empuja hasta extensión completa. Mantén los pies planos y las escápulas retraídas."
+      },
+      "feel": {
+        "en": "You should feel your chest stretch at the bottom and a strong contraction across the pecs at lockout. Triceps engage hard in the top half.",
+        "es": "Debes sentir el estiramiento del pecho en la parte baja y una fuerte contracción en los pectorales al extender. Los tríceps se activan en la mitad superior."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x8-10", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_02",
+      "name": { "en": "Incline Dumbbell Press", "es": "Press Inclinado con Mancuernas" },
+      "equipment": "dumbbells, incline bench",
+      "primary": ["chest"],
+      "secondary": ["shoulders", "triceps"],
+      "form": {
+        "en": "Set bench to 30-45 degrees. Press dumbbells from shoulder level to full extension, palms facing forward. Lower with control until upper arms are parallel to floor.",
+        "es": "Ajusta el banco a 30-45 grados. Empuja las mancuernas desde los hombros hasta extensión completa, palmas al frente. Baja con control hasta que los brazos estén paralelos al suelo."
+      },
+      "feel": {
+        "en": "Strong emphasis on upper chest. You should feel the stretch across the upper pecs at the bottom and a squeeze near the collarbone at the top.",
+        "es": "Énfasis fuerte en el pecho superior. Debes sentir el estiramiento en la parte alta del pectoral abajo y una contracción cerca de la clavícula arriba."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_03",
+      "name": { "en": "Decline Barbell Press", "es": "Press Declinado con Barra" },
+      "equipment": "barbell, decline bench",
+      "primary": ["chest"],
+      "secondary": ["triceps", "shoulders"],
+      "form": {
+        "en": "Secure legs at top of decline bench. Unrack bar with shoulder-width grip, lower to lower chest. Press back up to full extension without bouncing.",
+        "es": "Asegura las piernas en la parte superior del banco declinado. Desenganche la barra con agarre a la anchura de hombros, baja al pecho inferior. Empuja hasta extensión completa sin rebotar."
+      },
+      "feel": {
+        "en": "Targets lower chest fibers. You should feel a deep stretch at the bottom and strong contraction in the lower pec line at lockout.",
+        "es": "Se enfoca en las fibras inferiores del pecho. Debes sentir un estiramiento profundo abajo y una contracción fuerte en la línea inferior del pectoral al extender."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_04",
+      "name": { "en": "Cable Flyes", "es": "Aperturas con Cable" },
+      "equipment": "cable machine",
+      "primary": ["chest"],
+      "secondary": ["shoulders"],
+      "form": {
+        "en": "Set cables at shoulder height. Step forward with slight lean, arms extended with soft elbows. Bring hands together in a hugging motion. Control the return slowly.",
+        "es": "Ajusta los cables a la altura de los hombros. Da un paso adelante con ligera inclinación, brazos extendidos con codos suaves. Junta las manos en movimiento de abrazo. Controla el regreso lentamente."
+      },
+      "feel": {
+        "en": "Constant tension throughout the movement. Deep stretch in the outer chest at full extension, peak squeeze when hands meet in front.",
+        "es": "Tensión constante durante todo el movimiento. Estiramiento profundo en el pecho exterior en extensión completa, máxima contracción cuando las manos se juntan al frente."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "chest_05",
+      "name": { "en": "Dumbbell Flyes", "es": "Aperturas con Mancuernas" },
+      "equipment": "dumbbells, flat bench",
+      "primary": ["chest"],
+      "secondary": ["shoulders"],
+      "form": {
+        "en": "Lie flat holding dumbbells above chest with slight elbow bend. Lower arms out to sides until you feel a chest stretch. Squeeze pecs to bring dumbbells back together.",
+        "es": "Acuéstate sosteniendo mancuernas sobre el pecho con ligera flexión de codos. Baja los brazos a los lados hasta sentir estiramiento. Aprieta los pectorales para juntar las mancuernas."
+      },
+      "feel": {
+        "en": "Deep stretch across the chest at the bottom. The pecs should feel like they're doing all the work to bring the weights together — not the arms.",
+        "es": "Estiramiento profundo en el pecho en la parte baja. Los pectorales deben sentirse como si hicieran todo el trabajo para juntar los pesos, no los brazos."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x10-12", "endurance": "3x15-20" }
+    },
+    {
+      "id": "chest_06",
+      "name": { "en": "Push-Ups", "es": "Flexiones de Pecho" },
+      "equipment": "bodyweight",
+      "primary": ["chest"],
+      "secondary": ["triceps", "shoulders", "core"],
+      "form": {
+        "en": "Hands slightly wider than shoulders, body in a straight line from head to heels. Lower chest to the floor, push back up to full arm extension. Keep core tight throughout.",
+        "es": "Manos ligeramente más anchas que los hombros, cuerpo en línea recta de cabeza a talones. Baja el pecho al suelo, empuja hasta extensión completa. Mantén el core apretado."
+      },
+      "feel": {
+        "en": "Chest and triceps should burn evenly. At the bottom you feel a stretch across the chest, at the top a squeeze. Core stays engaged the entire time.",
+        "es": "El pecho y los tríceps deben quemar de manera uniforme. Abajo sientes estiramiento en el pecho, arriba una contracción. El core permanece activado todo el tiempo."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x15-20", "endurance": "3x20-30" }
+    },
+    {
+      "id": "chest_07",
+      "name": { "en": "Chest Dips", "es": "Fondos para Pecho" },
+      "equipment": "dip bars",
+      "primary": ["chest"],
+      "secondary": ["triceps", "shoulders"],
+      "form": {
+        "en": "Lean forward 30 degrees on dip bars, elbows flared slightly out. Lower until upper arms are parallel to floor. Press back up without locking elbows completely.",
+        "es": "Inclínate 30 grados hacia adelante en las barras, codos ligeramente hacia afuera. Baja hasta que los brazos estén paralelos al suelo. Empuja sin bloquear los codos completamente."
+      },
+      "feel": {
+        "en": "Deep stretch in the lower chest at the bottom. The forward lean shifts emphasis from triceps to chest. You should feel the pecs working to push you back up.",
+        "es": "Estiramiento profundo en el pecho inferior abajo. La inclinación hacia adelante cambia el énfasis de tríceps a pecho. Debes sentir los pectorales trabajando para empujarte arriba."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_08",
+      "name": { "en": "Machine Chest Press", "es": "Press de Pecho en Máquina" },
+      "equipment": "chest press machine",
+      "primary": ["chest"],
+      "secondary": ["triceps", "shoulders"],
+      "form": {
+        "en": "Adjust seat so handles are at mid-chest height. Grip handles, press forward to full extension. Return slowly, stopping before the weight stack touches.",
+        "es": "Ajusta el asiento para que las manijas estén a la altura del pecho medio. Agarra las manijas, empuja hacia adelante hasta extensión completa. Regresa lentamente, deteniéndote antes de que las pesas toquen."
+      },
+      "feel": {
+        "en": "Stable and controlled. The machine guides the path so you can focus on squeezing the chest hard at full extension and feeling the stretch on the return.",
+        "es": "Estable y controlado. La máquina guía el recorrido para que puedas enfocarte en apretar el pecho fuerte en extensión completa y sentir el estiramiento al regresar."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_09",
+      "name": { "en": "Landmine Press", "es": "Press con Landmine" },
+      "equipment": "barbell, landmine attachment",
+      "primary": ["chest"],
+      "secondary": ["shoulders", "triceps"],
+      "form": {
+        "en": "Stand holding the end of a barbell at chest height with both hands. Press up and forward at a 45-degree angle. Lower back to chest with control.",
+        "es": "Párate sosteniendo el extremo de una barra a la altura del pecho con ambas manos. Empuja hacia arriba y adelante en un ángulo de 45 grados. Baja al pecho con control."
+      },
+      "feel": {
+        "en": "Unique pressing angle that hits upper chest and front delts. You should feel the chest working through a natural arc rather than a straight line.",
+        "es": "Ángulo único de empuje que trabaja el pecho superior y deltoides frontal. Debes sentir el pecho trabajando en un arco natural en lugar de una línea recta."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "chest_10",
+      "name": { "en": "Pec Deck Machine", "es": "Máquina Pec Deck" },
+      "equipment": "pec deck machine",
+      "primary": ["chest"],
+      "secondary": ["shoulders"],
+      "form": {
+        "en": "Sit with back flat against pad, forearms against the arm pads. Squeeze arms together in front of chest. Return slowly to feel the stretch without letting weight stack rest.",
+        "es": "Siéntate con la espalda plana contra el respaldo, antebrazos contra las almohadillas. Junta los brazos frente al pecho. Regresa lentamente para sentir el estiramiento sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "Isolated chest contraction with no tricep involvement. Peak squeeze when pads meet in front, deep stretch in outer chest when arms are back.",
+        "es": "Contracción aislada del pecho sin participación de tríceps. Máxima contracción cuando las almohadillas se juntan, estiramiento profundo en el pecho exterior cuando los brazos están atrás."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+
+    {
+      "id": "back_01",
+      "name": { "en": "Deadlift", "es": "Peso Muerto" },
+      "equipment": "barbell",
+      "primary": ["back"],
+      "secondary": ["hamstrings", "glutes", "lower_back", "traps"],
+      "form": {
+        "en": "Stand with feet hip-width, bar over mid-foot. Hinge at hips, grip bar just outside knees. Drive through floor, keeping bar close to body until standing tall.",
+        "es": "Párate con pies al ancho de caderas, barra sobre el medio del pie. Bisagra en caderas, agarra la barra justo afuera de las rodillas. Empuja el suelo, mantén la barra cerca del cuerpo hasta pararte derecho."
+      },
+      "feel": {
+        "en": "Your entire posterior chain fires — hamstrings and glutes off the floor, back and traps to lock out. You should feel tension from hands to feet at the top.",
+        "es": "Toda la cadena posterior se activa — isquiotibiales y glúteos desde el suelo, espalda y trapecios para bloquear. Debes sentir tensión de manos a pies arriba."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x6-8", "endurance": "3x10-12" }
+    },
+    {
+      "id": "back_02",
+      "name": { "en": "Barbell Row", "es": "Remo con Barra" },
+      "equipment": "barbell",
+      "primary": ["back"],
+      "secondary": ["biceps", "lower_back"],
+      "form": {
+        "en": "Hinge forward 45 degrees, grip bar shoulder-width. Pull bar to lower ribcage, squeezing shoulder blades together. Lower with control, arms fully extended at bottom.",
+        "es": "Inclínate 45 grados hacia adelante, agarra la barra al ancho de hombros. Jala la barra hacia las costillas bajas, apretando las escápulas. Baja con control, brazos completamente extendidos abajo."
+      },
+      "feel": {
+        "en": "Lats and mid-back should do the heavy lifting. You feel the shoulder blades pinch together at the top and a full stretch through the lats at the bottom.",
+        "es": "Los dorsales y la espalda media deben hacer el trabajo pesado. Sientes las escápulas juntarse arriba y un estiramiento completo de los dorsales abajo."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x8-10", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_03",
+      "name": { "en": "Lat Pulldown", "es": "Jalón al Pecho" },
+      "equipment": "cable machine, lat pulldown bar",
+      "primary": ["back"],
+      "secondary": ["biceps"],
+      "form": {
+        "en": "Grip bar slightly wider than shoulder-width. Lean back slightly, pull bar to upper chest by driving elbows down and back. Return slowly to full arm extension overhead.",
+        "es": "Agarra la barra ligeramente más ancho que los hombros. Inclínate ligeramente hacia atrás, jala la barra al pecho superior llevando los codos abajo y atrás. Regresa lentamente a extensión completa."
+      },
+      "feel": {
+        "en": "Lats should burn from stretch to contraction. At the bottom, feel your lats squeeze hard. At the top, feel a deep stretch through the whole lat muscle.",
+        "es": "Los dorsales deben quemar del estiramiento a la contracción. Abajo, siente tus dorsales apretar fuerte. Arriba, siente un estiramiento profundo en todo el músculo dorsal."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_04",
+      "name": { "en": "Seated Cable Row", "es": "Remo Sentado con Cable" },
+      "equipment": "cable machine, V-handle",
+      "primary": ["back"],
+      "secondary": ["biceps", "traps"],
+      "form": {
+        "en": "Sit upright with feet on platform, slight knee bend. Pull handle to lower sternum, chest up. Extend arms fully forward for a stretch, don't round the lower back.",
+        "es": "Siéntate erguido con pies en la plataforma, ligera flexión de rodillas. Jala la manija al esternón bajo, pecho arriba. Extiende los brazos completamente para un estiramiento, no redondees la espalda baja."
+      },
+      "feel": {
+        "en": "Mid-back and lats work together. You should feel shoulder blades retract at the pull and a controlled stretch through the lats on the return.",
+        "es": "Espalda media y dorsales trabajan juntos. Debes sentir las escápulas retraerse al jalar y un estiramiento controlado de los dorsales al regresar."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_05",
+      "name": { "en": "Pull-Ups", "es": "Dominadas" },
+      "equipment": "pull-up bar",
+      "primary": ["back"],
+      "secondary": ["biceps", "forearms"],
+      "form": {
+        "en": "Hang from bar with overhand grip slightly wider than shoulders. Pull up until chin clears bar by driving elbows down. Lower with control to dead hang.",
+        "es": "Cuélgate de la barra con agarre prono ligeramente más ancho que los hombros. Sube hasta que la barbilla pase la barra llevando los codos abajo. Baja con control hasta extensión completa."
+      },
+      "feel": {
+        "en": "Lats do the primary work — you should feel them engage from the very start of the pull. Biceps assist but shouldn't dominate. Full stretch at the bottom.",
+        "es": "Los dorsales hacen el trabajo principal — debes sentirlos activarse desde el inicio del jalón. Los bíceps ayudan pero no deben dominar. Estiramiento completo abajo."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x6-10", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_06",
+      "name": { "en": "T-Bar Row", "es": "Remo en T" },
+      "equipment": "T-bar row machine or landmine",
+      "primary": ["back"],
+      "secondary": ["biceps", "lower_back"],
+      "form": {
+        "en": "Straddle the bar, grip the handles. Hinge forward with flat back, pull the weight to your chest. Squeeze at the top, lower with control.",
+        "es": "Colócate sobre la barra, agarra las manijas. Inclínate hacia adelante con espalda recta, jala el peso al pecho. Aprieta arriba, baja con control."
+      },
+      "feel": {
+        "en": "Thick, heavy contraction in the middle back. You should feel your rhomboids and lats working together to pull the weight into your torso.",
+        "es": "Contracción gruesa y pesada en la espalda media. Debes sentir los romboides y dorsales trabajando juntos para jalar el peso hacia tu torso."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_07",
+      "name": { "en": "Single-Arm Dumbbell Row", "es": "Remo con Mancuerna a Un Brazo" },
+      "equipment": "dumbbell, flat bench",
+      "primary": ["back"],
+      "secondary": ["biceps", "core"],
+      "form": {
+        "en": "One knee and hand on bench, other foot on floor. Pull dumbbell to hip, elbow driving past torso. Lower until arm is fully extended with a lat stretch.",
+        "es": "Una rodilla y mano en el banco, otro pie en el suelo. Jala la mancuerna a la cadera, codo pasando el torso. Baja hasta que el brazo esté completamente extendido con estiramiento del dorsal."
+      },
+      "feel": {
+        "en": "Each side works independently. You should feel the lat stretch at the bottom and a strong squeeze in the lat and mid-back at the top of each rep.",
+        "es": "Cada lado trabaja independientemente. Debes sentir el estiramiento del dorsal abajo y una fuerte contracción en el dorsal y espalda media arriba de cada repetición."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "back_08",
+      "name": { "en": "Face Pulls", "es": "Jalones a la Cara" },
+      "equipment": "cable machine, rope attachment",
+      "primary": ["back"],
+      "secondary": ["shoulders", "traps"],
+      "form": {
+        "en": "Set cable at upper chest height with rope. Pull toward face, spreading rope apart at the end. Elbows should be high and externally rotated at peak contraction.",
+        "es": "Ajusta el cable a la altura del pecho con cuerda. Jala hacia la cara, separando la cuerda al final. Los codos deben estar altos y rotados externamente en la contracción máxima."
+      },
+      "feel": {
+        "en": "Rear delts and upper back light up. You should feel the muscles between your shoulder blades squeeze together and external rotators engage.",
+        "es": "Los deltoides posteriores y la espalda superior se activan. Debes sentir los músculos entre las escápulas apretarse y los rotadores externos activarse."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "back_09",
+      "name": { "en": "Straight Arm Pulldown", "es": "Jalón con Brazos Rectos" },
+      "equipment": "cable machine, straight bar",
+      "primary": ["back"],
+      "secondary": ["triceps"],
+      "form": {
+        "en": "Stand facing cable machine, arms extended overhead gripping bar. Pull bar down to thighs in an arc with straight arms. Squeeze lats at bottom, return slowly overhead.",
+        "es": "Párate frente a la máquina de cable, brazos extendidos arriba agarrando la barra. Jala la barra hacia los muslos en arco con brazos rectos. Aprieta los dorsales abajo, regresa lentamente arriba."
+      },
+      "feel": {
+        "en": "Pure lat isolation — you should feel the lats contract hard at the bottom without any bicep involvement. Great mind-muscle connection exercise.",
+        "es": "Aislamiento puro del dorsal — debes sentir los dorsales contraerse fuerte abajo sin participación del bíceps. Excelente ejercicio de conexión mente-músculo."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "back_10",
+      "name": { "en": "Machine Row", "es": "Remo en Máquina" },
+      "equipment": "row machine",
+      "primary": ["back"],
+      "secondary": ["biceps", "traps"],
+      "form": {
+        "en": "Sit with chest against pad, grip handles. Pull handles toward torso, squeezing shoulder blades. Return to full arm extension without letting weight stack rest.",
+        "es": "Siéntate con el pecho contra la almohadilla, agarra las manijas. Jala las manijas hacia el torso, apretando las escápulas. Regresa a extensión completa sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "The chest pad removes lower back from the equation so you feel pure mid-back and lat engagement. Squeeze hard at the back of each rep.",
+        "es": "La almohadilla del pecho elimina la espalda baja de la ecuación para que sientas pura activación de espalda media y dorsales. Aprieta fuerte al final de cada repetición."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+
+    {
+      "id": "shoulders_01",
+      "name": { "en": "Overhead Press", "es": "Press Militar" },
+      "equipment": "barbell",
+      "primary": ["shoulders"],
+      "secondary": ["triceps", "core"],
+      "form": {
+        "en": "Stand with bar at shoulder height, grip just outside shoulders. Press bar straight overhead to lockout. Keep core braced and avoid excessive back lean.",
+        "es": "Párate con la barra a la altura de los hombros, agarre justo afuera de los hombros. Empuja la barra directamente arriba hasta bloquear. Mantén el core firme y evita inclinarte hacia atrás."
+      },
+      "feel": {
+        "en": "All three delt heads fire but front delts dominate. You should feel your shoulders burn at the top and your core working to stabilize the load overhead.",
+        "es": "Las tres cabezas del deltoides se activan pero el frontal domina. Debes sentir los hombros quemar arriba y el core trabajando para estabilizar la carga."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x6-8", "endurance": "3x10-12" }
+    },
+    {
+      "id": "shoulders_02",
+      "name": { "en": "Lateral Raises", "es": "Elevaciones Laterales" },
+      "equipment": "dumbbells",
+      "primary": ["shoulders"],
+      "secondary": ["traps"],
+      "form": {
+        "en": "Stand with dumbbells at sides, slight elbow bend. Raise arms out to sides until parallel to floor, leading with elbows. Lower slowly with control.",
+        "es": "Párate con mancuernas a los lados, ligera flexión de codos. Eleva los brazos a los lados hasta paralelo al suelo, liderando con los codos. Baja lentamente con control."
+      },
+      "feel": {
+        "en": "Medial delts should burn intensely. The effort peaks when arms reach shoulder height. You shouldn't feel your traps shrugging up — keep shoulders down.",
+        "es": "Los deltoides laterales deben quemar intensamente. El esfuerzo es máximo cuando los brazos llegan a la altura de los hombros. No debes sentir los trapecios subiendo — mantén los hombros abajo."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "shoulders_03",
+      "name": { "en": "Front Raises", "es": "Elevaciones Frontales" },
+      "equipment": "dumbbells",
+      "primary": ["shoulders"],
+      "secondary": ["chest"],
+      "form": {
+        "en": "Stand holding dumbbells in front of thighs, palms facing body. Raise one or both arms forward to shoulder height. Lower with control, don't swing.",
+        "es": "Párate sosteniendo mancuernas frente a los muslos, palmas hacia el cuerpo. Eleva uno o ambos brazos al frente hasta la altura de los hombros. Baja con control, sin balanceo."
+      },
+      "feel": {
+        "en": "Front delts isolate hard. You should feel the burn specifically in the front of the shoulder, not the traps or upper chest.",
+        "es": "Los deltoides frontales se aíslan fuerte. Debes sentir la quemadura específicamente en el frente del hombro, no en los trapecios o pecho superior."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "shoulders_04",
+      "name": { "en": "Reverse Flyes", "es": "Aperturas Inversas" },
+      "equipment": "dumbbells, incline bench",
+      "primary": ["shoulders"],
+      "secondary": ["back", "traps"],
+      "form": {
+        "en": "Bend forward or lie face down on incline bench. With slight elbow bend, raise dumbbells out to sides squeezing rear delts. Lower slowly under control.",
+        "es": "Inclínate hacia adelante o acuéstate boca abajo en banco inclinado. Con ligera flexión de codos, eleva las mancuernas a los lados apretando deltoides posteriores. Baja lentamente con control."
+      },
+      "feel": {
+        "en": "Rear delts and upper back between the shoulder blades. You should feel a squeeze in the back of the shoulders, not in the arms or traps.",
+        "es": "Deltoides posteriores y espalda superior entre las escápulas. Debes sentir una contracción en la parte posterior de los hombros, no en los brazos o trapecios."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "shoulders_05",
+      "name": { "en": "Arnold Press", "es": "Press Arnold" },
+      "equipment": "dumbbells",
+      "primary": ["shoulders"],
+      "secondary": ["triceps"],
+      "form": {
+        "en": "Start with dumbbells at chest, palms facing you. As you press up, rotate palms to face forward at the top. Reverse the rotation on the way down.",
+        "es": "Comienza con mancuernas al pecho, palmas hacia ti. Al empujar arriba, rota las palmas para que miren al frente arriba. Invierte la rotación al bajar."
+      },
+      "feel": {
+        "en": "Hits all three delt heads through the rotation. Front delts work at the bottom, medial delts at the midpoint, and everything locks in at the top.",
+        "es": "Trabaja las tres cabezas del deltoides a través de la rotación. Deltoides frontales abajo, laterales en el medio, y todo se bloquea arriba."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "shoulders_06",
+      "name": { "en": "Upright Row", "es": "Remo al Mentón" },
+      "equipment": "barbell or EZ bar",
+      "primary": ["shoulders"],
+      "secondary": ["traps", "biceps"],
+      "form": {
+        "en": "Grip bar with hands closer than shoulder-width. Pull bar up along your torso until elbows reach shoulder height. Keep bar close to body throughout.",
+        "es": "Agarra la barra con manos más cerradas que el ancho de hombros. Jala la barra a lo largo del torso hasta que los codos lleguen a la altura de los hombros. Mantén la barra cerca del cuerpo."
+      },
+      "feel": {
+        "en": "Lateral delts and traps work together. You should feel your elbows leading the movement and the side delts burning at the top position.",
+        "es": "Deltoides laterales y trapecios trabajan juntos. Debes sentir tus codos liderando el movimiento y los deltoides laterales quemando en la posición superior."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "shoulders_07",
+      "name": { "en": "Cable Lateral Raise", "es": "Elevación Lateral con Cable" },
+      "equipment": "cable machine",
+      "primary": ["shoulders"],
+      "secondary": ["traps"],
+      "form": {
+        "en": "Stand sideways to cable, handle in far hand at low pulley. Raise arm out to side until parallel to floor. Control the negative against cable tension.",
+        "es": "Párate de lado al cable, manija en la mano lejana en polea baja. Eleva el brazo al lado hasta paralelo al suelo. Controla la negativa contra la tensión del cable."
+      },
+      "feel": {
+        "en": "Constant tension from the cable makes the medial delt burn throughout the entire range. No rest at bottom unlike dumbbells — the cable pulls you the whole time.",
+        "es": "La tensión constante del cable hace que el deltoides lateral queme durante todo el rango. Sin descanso abajo a diferencia de las mancuernas — el cable te jala todo el tiempo."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "shoulders_08",
+      "name": { "en": "Machine Shoulder Press", "es": "Press de Hombros en Máquina" },
+      "equipment": "shoulder press machine",
+      "primary": ["shoulders"],
+      "secondary": ["triceps"],
+      "form": {
+        "en": "Sit with back against pad, grip handles at shoulder level. Press up to full extension overhead. Lower with control until upper arms are parallel to floor.",
+        "es": "Siéntate con espalda contra la almohadilla, agarra las manijas a nivel de hombros. Empuja hasta extensión completa arriba. Baja con control hasta que los brazos estén paralelos al suelo."
+      },
+      "feel": {
+        "en": "Shoulders and triceps work in a guided path. Focus on pressing through the delts rather than letting triceps take over. Stable and safe for heavy loads.",
+        "es": "Hombros y tríceps trabajan en un recorrido guiado. Enfócate en empujar a través de los deltoides en lugar de dejar que los tríceps dominen. Estable y seguro para cargas pesadas."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "shoulders_09",
+      "name": { "en": "Landmine Lateral Raise", "es": "Elevación Lateral con Landmine" },
+      "equipment": "barbell, landmine attachment",
+      "primary": ["shoulders"],
+      "secondary": ["core", "traps"],
+      "form": {
+        "en": "Stand at end of barbell in landmine. Grip end with one hand, raise the bar out to the side in an arc until arm is at shoulder height. Lower with control.",
+        "es": "Párate al final de la barra en landmine. Agarra el extremo con una mano, eleva la barra al lado en un arco hasta la altura del hombro. Baja con control."
+      },
+      "feel": {
+        "en": "Unique arc pattern challenges the medial delt differently than dumbbells. You should feel constant tension through the shoulder with good core engagement for stability.",
+        "es": "El patrón de arco único desafía el deltoides lateral diferente a las mancuernas. Debes sentir tensión constante en el hombro con buena activación del core para estabilidad."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "shoulders_10",
+      "name": { "en": "Dumbbell Shrugs (Front Delt Focus)", "es": "Encogimientos con Mancuernas (Enfoque Deltoides Frontal)" },
+      "equipment": "dumbbells",
+      "primary": ["shoulders"],
+      "secondary": ["traps"],
+      "form": {
+        "en": "Hold dumbbells slightly in front of thighs rather than at sides. Shrug shoulders up and slightly forward, squeezing at the top. Lower slowly.",
+        "es": "Sostén mancuernas ligeramente al frente de los muslos en lugar de a los lados. Encoge los hombros arriba y ligeramente al frente, apretando arriba. Baja lentamente."
+      },
+      "feel": {
+        "en": "The forward position shifts emphasis to the front delt-trap connection. You should feel the front of the shoulder and upper trap engaging together.",
+        "es": "La posición frontal cambia el énfasis a la conexión deltoides frontal-trapecio. Debes sentir el frente del hombro y trapecio superior activándose juntos."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+
+    {
+      "id": "biceps_01",
+      "name": { "en": "Barbell Curl", "es": "Curl con Barra" },
+      "equipment": "barbell",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Stand with bar at hip level, shoulder-width underhand grip. Curl bar up to shoulder height keeping elbows pinned at sides. Lower with control to full extension.",
+        "es": "Párate con barra a nivel de cadera, agarre supino al ancho de hombros. Curl la barra hasta la altura de los hombros manteniendo codos pegados. Baja con control hasta extensión completa."
+      },
+      "feel": {
+        "en": "Biceps should burn from mid-range to peak contraction. You shouldn't feel your back swinging — if you do, the weight is too heavy.",
+        "es": "Los bíceps deben quemar desde el rango medio hasta la contracción máxima. No debes sentir tu espalda balanceando — si lo sientes, el peso es muy pesado."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_02",
+      "name": { "en": "Dumbbell Curl", "es": "Curl con Mancuernas" },
+      "equipment": "dumbbells",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Stand holding dumbbells at sides, palms forward. Curl both or alternate, rotating wrist slightly outward at the top. Lower with control, full extension at bottom.",
+        "es": "Párate sosteniendo mancuernas a los lados, palmas al frente. Curl ambos o alterna, rotando la muñeca ligeramente hacia afuera arriba. Baja con control, extensión completa abajo."
+      },
+      "feel": {
+        "en": "The supination at the top gives an extra squeeze to the bicep peak. You should feel each arm working independently with no momentum.",
+        "es": "La supinación arriba da una contracción extra al pico del bíceps. Debes sentir cada brazo trabajando independientemente sin impulso."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_03",
+      "name": { "en": "Hammer Curl", "es": "Curl Martillo" },
+      "equipment": "dumbbells",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Stand with dumbbells at sides, palms facing each other (neutral grip). Curl up keeping neutral wrist position throughout. Lower with control.",
+        "es": "Párate con mancuernas a los lados, palmas enfrentadas (agarre neutro). Curl arriba manteniendo posición neutra de muñeca. Baja con control."
+      },
+      "feel": {
+        "en": "Targets the brachialis and brachioradialis more than regular curls. You should feel it in the outer bicep and forearm rather than just the peak.",
+        "es": "Se enfoca más en el braquial y braquiorradial que curls regulares. Debes sentirlo en el bíceps externo y antebrazo en lugar de solo el pico."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_04",
+      "name": { "en": "Preacher Curl", "es": "Curl en Banco Predicador" },
+      "equipment": "EZ bar, preacher bench",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Sit at preacher bench, arms over pad with armpits at top edge. Curl bar up squeezing biceps hard at top. Lower slowly — don't let arms fully hyperextend.",
+        "es": "Siéntate en el banco predicador, brazos sobre la almohadilla con axilas en el borde superior. Curl la barra apretando bíceps arriba. Baja lentamente — no dejes que los brazos se hiperextiendan."
+      },
+      "feel": {
+        "en": "Eliminates all cheating — pure bicep isolation. You should feel an intense stretch at the bottom and a peak contraction at the top with nowhere to hide.",
+        "es": "Elimina toda trampa — aislamiento puro del bíceps. Debes sentir un estiramiento intenso abajo y una contracción máxima arriba sin donde esconderse."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_05",
+      "name": { "en": "Cable Curl", "es": "Curl con Cable" },
+      "equipment": "cable machine, straight bar",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Stand facing low pulley, grip bar underhand at shoulder width. Curl up keeping elbows at sides, squeeze at top. Lower with control against cable tension.",
+        "es": "Párate frente a la polea baja, agarra la barra supino al ancho de hombros. Curl arriba manteniendo codos a los lados, aprieta arriba. Baja con control contra la tensión del cable."
+      },
+      "feel": {
+        "en": "Constant tension from the cable means the bicep never rests during the set. You should feel continuous burn from first rep to last.",
+        "es": "La tensión constante del cable significa que el bíceps nunca descansa durante la serie. Debes sentir quemadura continua desde la primera hasta la última repetición."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_06",
+      "name": { "en": "Concentration Curl", "es": "Curl de Concentración" },
+      "equipment": "dumbbell, flat bench",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Sit on bench, elbow braced against inner thigh. Curl dumbbell up toward shoulder with full supination. Lower with control to full arm extension.",
+        "es": "Siéntate en el banco, codo apoyado contra el muslo interno. Curl la mancuerna hacia el hombro con supinación completa. Baja con control hasta extensión completa."
+      },
+      "feel": {
+        "en": "Maximum mind-muscle connection. The braced position forces pure bicep work — you should feel the peak of the bicep contract hard at the top.",
+        "es": "Máxima conexión mente-músculo. La posición apoyada fuerza trabajo puro del bíceps — debes sentir el pico del bíceps contraerse fuerte arriba."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_07",
+      "name": { "en": "Incline Dumbbell Curl", "es": "Curl Inclinado con Mancuernas" },
+      "equipment": "dumbbells, incline bench",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Lie back on incline bench (45 degrees), arms hanging straight down. Curl dumbbells up without moving upper arms. Lower to full stretch at bottom.",
+        "es": "Recuéstate en banco inclinado (45 grados), brazos colgando rectos. Curl las mancuernas sin mover los brazos superiores. Baja hasta estiramiento completo abajo."
+      },
+      "feel": {
+        "en": "The incline puts the bicep in a stretched position from the start. You should feel an intense stretch at the bottom that you don't get from standing curls.",
+        "es": "La inclinación pone el bíceps en posición estirada desde el inicio. Debes sentir un estiramiento intenso abajo que no obtienes de curls parado."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_08",
+      "name": { "en": "Spider Curl", "es": "Curl Araña" },
+      "equipment": "dumbbells or EZ bar, incline bench",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Lie face down on incline bench, arms hanging straight down. Curl weight up squeezing hard at the top. Lower to full extension — gravity works against you the whole time.",
+        "es": "Acuéstate boca abajo en banco inclinado, brazos colgando rectos. Curl el peso arriba apretando fuerte. Baja hasta extensión completa — la gravedad trabaja en tu contra todo el tiempo."
+      },
+      "feel": {
+        "en": "Peak contraction is maximized because the resistance is hardest at the top. You should feel an intense squeeze at the shortened position.",
+        "es": "La contracción máxima se maximiza porque la resistencia es más fuerte arriba. Debes sentir una contracción intensa en la posición acortada."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_09",
+      "name": { "en": "EZ Bar Curl", "es": "Curl con Barra EZ" },
+      "equipment": "EZ curl bar",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Grip EZ bar on the angled portions, underhand. Curl up with elbows pinned, squeeze at top. Lower with control. The angled grip reduces wrist strain.",
+        "es": "Agarra la barra EZ en las porciones anguladas, supino. Curl arriba con codos fijos, aprieta arriba. Baja con control. El agarre angulado reduce la tensión en las muñecas."
+      },
+      "feel": {
+        "en": "Similar to barbell curl but more comfortable on the wrists. The slight angle shifts some emphasis to the outer bicep head.",
+        "es": "Similar al curl con barra pero más cómodo para las muñecas. El ligero ángulo cambia algo de énfasis a la cabeza externa del bíceps."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "biceps_10",
+      "name": { "en": "Machine Curl", "es": "Curl en Máquina" },
+      "equipment": "bicep curl machine",
+      "primary": ["biceps"],
+      "secondary": ["forearms"],
+      "form": {
+        "en": "Sit with arms on pad, grip handles underhand. Curl handles toward shoulders in the machine's guided path. Lower slowly without letting stack rest.",
+        "es": "Siéntate con brazos en la almohadilla, agarra las manijas supino. Curl las manijas hacia los hombros en el recorrido guiado. Baja lentamente sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "The machine isolates the biceps completely — you can push to failure safely. Focus on squeezing hard at the top of every rep.",
+        "es": "La máquina aísla los bíceps completamente — puedes llegar al fallo de forma segura. Enfócate en apretar fuerte arriba de cada repetición."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+
+    {
+      "id": "triceps_01",
+      "name": { "en": "Close Grip Bench Press", "es": "Press de Banca Agarre Cerrado" },
+      "equipment": "barbell, flat bench",
+      "primary": ["triceps"],
+      "secondary": ["chest", "shoulders"],
+      "form": {
+        "en": "Lie on bench, grip bar with hands shoulder-width or slightly narrower. Lower bar to lower chest keeping elbows tucked. Press to lockout focusing on tricep extension.",
+        "es": "Acuéstate en el banco, agarra la barra con manos al ancho de hombros o ligeramente más cerrado. Baja la barra al pecho bajo con codos pegados. Empuja hasta bloquear enfocándote en la extensión del tríceps."
+      },
+      "feel": {
+        "en": "Triceps do the majority of the work. You should feel them burning through the top half of the press. Chest assists but shouldn't dominate.",
+        "es": "Los tríceps hacen la mayoría del trabajo. Debes sentirlos quemar en la mitad superior del press. El pecho asiste pero no debe dominar."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x8-10", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_02",
+      "name": { "en": "Skull Crushers", "es": "Rompecráneos" },
+      "equipment": "EZ bar, flat bench",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Lie on bench holding EZ bar with arms extended overhead. Bend elbows to lower bar toward forehead, keeping upper arms vertical. Extend back to lockout.",
+        "es": "Acuéstate en el banco sosteniendo barra EZ con brazos extendidos arriba. Flexiona los codos para bajar la barra hacia la frente, manteniendo brazos superiores verticales. Extiende hasta bloquear."
+      },
+      "feel": {
+        "en": "Pure tricep isolation. You should feel a deep stretch in the long head at the bottom and a hard contraction at full lockout. No shoulder movement.",
+        "es": "Aislamiento puro del tríceps. Debes sentir un estiramiento profundo en la cabeza larga abajo y una contracción dura al bloquear completamente. Sin movimiento de hombros."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_03",
+      "name": { "en": "Cable Pushdown", "es": "Extensión de Tríceps con Cable" },
+      "equipment": "cable machine, straight bar",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Stand facing high pulley, grip bar overhand with elbows at sides. Push bar down to full arm extension. Return to 90-degree elbow bend without flaring elbows.",
+        "es": "Párate frente a la polea alta, agarra la barra prono con codos a los lados. Empuja la barra abajo hasta extensión completa. Regresa a 90 grados sin abrir los codos."
+      },
+      "feel": {
+        "en": "Lateral and medial heads of the tricep contract hard at the bottom. Keep elbows pinned — if they drift forward, the tension shifts away from the triceps.",
+        "es": "Las cabezas lateral y medial del tríceps se contraen fuerte abajo. Mantén los codos fijos — si se mueven al frente, la tensión se aleja de los tríceps."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_04",
+      "name": { "en": "Overhead Tricep Extension", "es": "Extensión de Tríceps sobre la Cabeza" },
+      "equipment": "dumbbell or cable",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Hold weight overhead with both hands, elbows pointing forward. Lower weight behind head by bending elbows. Extend back to lockout overhead keeping elbows close.",
+        "es": "Sostén el peso arriba con ambas manos, codos apuntando al frente. Baja el peso detrás de la cabeza flexionando codos. Extiende hasta bloquear arriba manteniendo codos cerca."
+      },
+      "feel": {
+        "en": "The overhead position stretches the long head intensely. You should feel a deep stretch behind the arm at the bottom and full tricep engagement at lockout.",
+        "es": "La posición sobre la cabeza estira la cabeza larga intensamente. Debes sentir un estiramiento profundo detrás del brazo abajo y activación completa del tríceps al bloquear."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_05",
+      "name": { "en": "Tricep Dips", "es": "Fondos para Tríceps" },
+      "equipment": "dip bars",
+      "primary": ["triceps"],
+      "secondary": ["chest", "shoulders"],
+      "form": {
+        "en": "Support yourself on dip bars with arms extended, body upright. Lower by bending elbows until 90 degrees, keeping torso vertical. Press back up to lockout.",
+        "es": "Sopórtate en las barras con brazos extendidos, cuerpo erguido. Baja flexionando codos hasta 90 grados, manteniendo torso vertical. Empuja arriba hasta bloquear."
+      },
+      "feel": {
+        "en": "Keeping upright shifts the work to triceps over chest. You should feel the triceps loading at the bottom and powering the push back up.",
+        "es": "Mantenerte erguido cambia el trabajo a tríceps sobre pecho. Debes sentir los tríceps cargando abajo y potenciando el empuje hacia arriba."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_06",
+      "name": { "en": "Dumbbell Kickbacks", "es": "Patada Trasera con Mancuerna" },
+      "equipment": "dumbbells",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Hinge forward, upper arm parallel to floor and pinned at side. Extend forearm back until arm is fully straight. Squeeze at lockout, lower with control.",
+        "es": "Inclínate hacia adelante, brazo superior paralelo al suelo y pegado al lado. Extiende el antebrazo atrás hasta que el brazo esté completamente recto. Aprieta al bloquear, baja con control."
+      },
+      "feel": {
+        "en": "The tricep should feel completely isolated — if your shoulder is moving, you're cheating. Peak contraction happens at full extension behind you.",
+        "es": "El tríceps debe sentirse completamente aislado — si tu hombro se mueve, estás haciendo trampa. La contracción máxima ocurre en extensión completa detrás de ti."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "triceps_07",
+      "name": { "en": "Diamond Push-Ups", "es": "Flexiones Diamante" },
+      "equipment": "bodyweight",
+      "primary": ["triceps"],
+      "secondary": ["chest", "shoulders"],
+      "form": {
+        "en": "Push-up position with hands together forming a diamond shape under chest. Lower chest to hands keeping elbows close to body. Push back up to lockout.",
+        "es": "Posición de flexión con manos juntas formando un diamante bajo el pecho. Baja el pecho a las manos manteniendo codos cerca del cuerpo. Empuja arriba hasta bloquear."
+      },
+      "feel": {
+        "en": "Triceps bear the majority of the load. You should feel them working much harder than in regular push-ups. Chest assists minimally in the narrow position.",
+        "es": "Los tríceps soportan la mayoría de la carga. Debes sentirlos trabajando mucho más que en flexiones regulares. El pecho asiste mínimamente en la posición cerrada."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-25" }
+    },
+    {
+      "id": "triceps_08",
+      "name": { "en": "Rope Pushdown", "es": "Extensión con Cuerda" },
+      "equipment": "cable machine, rope attachment",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Grip rope at high pulley, elbows at sides. Push down and spread the rope apart at the bottom for extra contraction. Return to 90 degrees with control.",
+        "es": "Agarra la cuerda en la polea alta, codos a los lados. Empuja abajo y separa la cuerda al final para contracción extra. Regresa a 90 grados con control."
+      },
+      "feel": {
+        "en": "The rope spread at the bottom hits the lateral head hard. You should feel an extra squeeze when you pull the rope apart compared to a straight bar pushdown.",
+        "es": "La separación de la cuerda abajo golpea la cabeza lateral fuerte. Debes sentir una contracción extra cuando separas la cuerda comparado con la barra recta."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_09",
+      "name": { "en": "Machine Tricep Extension", "es": "Extensión de Tríceps en Máquina" },
+      "equipment": "tricep extension machine",
+      "primary": ["triceps"],
+      "secondary": [],
+      "form": {
+        "en": "Sit in machine, place back of upper arms against pad. Push handles down by extending elbows. Return to start slowly without letting stack rest.",
+        "es": "Siéntate en la máquina, coloca la parte posterior de los brazos contra la almohadilla. Empuja las manijas abajo extendiendo los codos. Regresa al inicio lentamente sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "Guided isolation — you can safely go heavy and push to failure. Focus on feeling the tricep do all the work through the full range.",
+        "es": "Aislamiento guiado — puedes ir pesado y llegar al fallo de forma segura. Enfócate en sentir el tríceps haciendo todo el trabajo en el rango completo."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "triceps_10",
+      "name": { "en": "JM Press", "es": "Press JM" },
+      "equipment": "barbell, flat bench",
+      "primary": ["triceps"],
+      "secondary": ["chest", "shoulders"],
+      "form": {
+        "en": "Like a close-grip bench but lower bar to just above the chin/neck area by bending elbows. The bar path is more vertical than a bench press. Press to lockout.",
+        "es": "Como press agarre cerrado pero baja la barra justo encima del mentón/cuello flexionando codos. La trayectoria es más vertical que un press de banca. Empuja hasta bloquear."
+      },
+      "feel": {
+        "en": "Hybrid between skull crushers and close-grip bench. Heavy tricep loading with the safety of a bench. You should feel intense tricep engagement throughout.",
+        "es": "Híbrido entre rompecráneos y press agarre cerrado. Carga pesada del tríceps con la seguridad del banco. Debes sentir activación intensa del tríceps durante todo el movimiento."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-10", "endurance": "3x10-12" }
+    },
+
+    {
+      "id": "quadriceps_01",
+      "name": { "en": "Barbell Back Squat", "es": "Sentadilla con Barra" },
+      "equipment": "barbell, squat rack",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "hamstrings", "core"],
+      "form": {
+        "en": "Bar on upper traps, feet shoulder-width. Descend by breaking at hips and knees simultaneously until thighs are parallel. Drive up through midfoot to standing.",
+        "es": "Barra en trapecios superiores, pies al ancho de hombros. Desciende rompiendo en caderas y rodillas simultáneamente hasta que los muslos estén paralelos. Empuja a través del medio del pie hasta pararte."
+      },
+      "feel": {
+        "en": "Quads burn through the entire range, especially out of the hole. Glutes fire to drive you up from the bottom. Core braces hard throughout.",
+        "es": "Los cuádriceps queman durante todo el rango, especialmente saliendo del fondo. Los glúteos se activan para impulsarte desde abajo. El core se mantiene firme durante todo el movimiento."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x8-10", "endurance": "3x12-15" }
+    },
+    {
+      "id": "quadriceps_02",
+      "name": { "en": "Leg Press", "es": "Prensa de Piernas" },
+      "equipment": "leg press machine",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "hamstrings"],
+      "form": {
+        "en": "Sit in machine with feet shoulder-width on platform. Lower platform by bending knees to 90 degrees. Press back up without locking knees completely.",
+        "es": "Siéntate en la máquina con pies al ancho de hombros en la plataforma. Baja la plataforma flexionando rodillas a 90 grados. Empuja arriba sin bloquear las rodillas completamente."
+      },
+      "feel": {
+        "en": "Heavy quad loading without spinal compression. You should feel the quads working hard through the push phase. Lower foot placement increases quad emphasis.",
+        "es": "Carga pesada del cuádriceps sin compresión espinal. Debes sentir los cuádriceps trabajando fuerte durante la fase de empuje. Posición baja de pies aumenta el énfasis en cuádriceps."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "quadriceps_03",
+      "name": { "en": "Leg Extension", "es": "Extensión de Piernas" },
+      "equipment": "leg extension machine",
+      "primary": ["quadriceps"],
+      "secondary": [],
+      "form": {
+        "en": "Sit with back against pad, ankles behind roller pad. Extend legs to full lockout squeezing quads hard. Lower with control to 90-degree starting position.",
+        "es": "Siéntate con espalda contra la almohadilla, tobillos detrás del rodillo. Extiende las piernas hasta bloquear apretando cuádriceps. Baja con control a la posición inicial de 90 grados."
+      },
+      "feel": {
+        "en": "Pure quad isolation — especially the VMO (teardrop) at full extension. You should feel the quad contract hardest at the very top of the movement.",
+        "es": "Aislamiento puro del cuádriceps — especialmente el VMO (lágrima) en extensión completa. Debes sentir el cuádriceps contraerse más fuerte en la parte más alta del movimiento."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "quadriceps_04",
+      "name": { "en": "Front Squat", "es": "Sentadilla Frontal" },
+      "equipment": "barbell, squat rack",
+      "primary": ["quadriceps"],
+      "secondary": ["core", "glutes"],
+      "form": {
+        "en": "Bar in front rack position on shoulders, elbows high. Squat down keeping torso as upright as possible. Drive up through midfoot maintaining elbow position.",
+        "es": "Barra en posición frontal sobre los hombros, codos altos. Baja en sentadilla manteniendo el torso lo más erguido posible. Empuja a través del medio del pie manteniendo la posición de codos."
+      },
+      "feel": {
+        "en": "The upright torso shifts nearly all the load to the quads. You should feel them burning more than in back squats. Core works overtime to keep you upright.",
+        "es": "El torso erguido cambia casi toda la carga a los cuádriceps. Debes sentirlos quemar más que en sentadillas traseras. El core trabaja extra para mantenerte erguido."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x6-8", "endurance": "3x10-12" }
+    },
+    {
+      "id": "quadriceps_05",
+      "name": { "en": "Bulgarian Split Squat", "es": "Sentadilla Búlgara" },
+      "equipment": "dumbbells, bench",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "hamstrings"],
+      "form": {
+        "en": "Rear foot elevated on bench behind you, front foot forward. Lower until front thigh is parallel, knee tracking over toes. Drive up through front heel.",
+        "es": "Pie trasero elevado en banco detrás de ti, pie delantero adelante. Baja hasta que el muslo delantero esté paralelo, rodilla siguiendo los dedos. Empuja a través del talón delantero."
+      },
+      "feel": {
+        "en": "Intense unilateral quad burn plus a hip flexor stretch on the rear leg. Each leg works independently — you'll feel imbalances quickly.",
+        "es": "Quemadura intensa unilateral del cuádriceps más estiramiento del flexor de cadera en la pierna trasera. Cada pierna trabaja independientemente — sentirás desequilibrios rápidamente."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "quadriceps_06",
+      "name": { "en": "Hack Squat", "es": "Sentadilla Hack" },
+      "equipment": "hack squat machine",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes"],
+      "form": {
+        "en": "Stand in machine with shoulders against pads, feet low on platform. Squat down until thighs are parallel. Press back up through the quads.",
+        "es": "Párate en la máquina con hombros contra las almohadillas, pies bajos en la plataforma. Baja hasta que los muslos estén paralelos. Empuja arriba a través de los cuádriceps."
+      },
+      "feel": {
+        "en": "The machine angle and low foot position isolates the quads heavily. You should feel minimal glute involvement compared to free squats.",
+        "es": "El ángulo de la máquina y la posición baja de pies aísla los cuádriceps fuertemente. Debes sentir mínima participación de glúteos comparado con sentadillas libres."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "quadriceps_07",
+      "name": { "en": "Walking Lunges", "es": "Zancadas Caminando" },
+      "equipment": "dumbbells or barbell",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "hamstrings"],
+      "form": {
+        "en": "Step forward into a lunge, lowering back knee toward floor. Push off front foot to step into next lunge. Keep torso upright and core engaged.",
+        "es": "Da un paso adelante en zancada, bajando la rodilla trasera hacia el suelo. Empuja con el pie delantero para dar el siguiente paso. Mantén el torso erguido y el core activado."
+      },
+      "feel": {
+        "en": "Each step challenges the quad on the front leg and stretches the hip flexor on the back leg. The walking motion adds balance and coordination demands.",
+        "es": "Cada paso desafía el cuádriceps de la pierna delantera y estira el flexor de cadera de la pierna trasera. El movimiento caminando añade demandas de balance y coordinación."
+      },
+      "sets": { "strength": "4x8 per leg", "hypertrophy": "3x12 per leg", "endurance": "3x15-20 per leg" }
+    },
+    {
+      "id": "quadriceps_08",
+      "name": { "en": "Goblet Squat", "es": "Sentadilla Copa" },
+      "equipment": "dumbbell or kettlebell",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "core"],
+      "form": {
+        "en": "Hold dumbbell vertically at chest level, elbows pointing down. Squat between your knees, keeping torso upright. Drive up through midfoot to standing.",
+        "es": "Sostén la mancuerna verticalmente a nivel del pecho, codos apuntando abajo. Baja en sentadilla entre las rodillas, manteniendo torso erguido. Empuja a través del medio del pie hasta pararte."
+      },
+      "feel": {
+        "en": "The front-loaded position keeps you upright and hits quads hard. Great for learning squat depth — you should feel comfortable sitting deep between your knees.",
+        "es": "La posición con carga frontal te mantiene erguido y trabaja los cuádriceps fuerte. Excelente para aprender profundidad — debes sentirte cómodo sentándote profundo entre las rodillas."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x15-20" }
+    },
+    {
+      "id": "quadriceps_09",
+      "name": { "en": "Sissy Squat", "es": "Sentadilla Sissy" },
+      "equipment": "bodyweight or sissy squat bench",
+      "primary": ["quadriceps"],
+      "secondary": [],
+      "form": {
+        "en": "Stand holding a support for balance. Lean back while bending knees forward, lowering yourself with knees traveling far over toes. Push back up through quads.",
+        "es": "Párate sosteniendo un soporte para balance. Inclínate hacia atrás mientras flexionas las rodillas al frente, bajándote con las rodillas viajando lejos sobre los dedos. Empuja arriba a través de los cuádriceps."
+      },
+      "feel": {
+        "en": "Extreme quad isolation — the rectus femoris stretches maximally. You should feel an intense burn in the front of the thigh with zero glute involvement.",
+        "es": "Aislamiento extremo del cuádriceps — el recto femoral se estira al máximo. Debes sentir una quemadura intensa en el frente del muslo con cero participación de glúteos."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "quadriceps_10",
+      "name": { "en": "Step-Ups", "es": "Subidas al Cajón" },
+      "equipment": "dumbbells, box or bench",
+      "primary": ["quadriceps"],
+      "secondary": ["glutes", "hamstrings"],
+      "form": {
+        "en": "Stand facing a box or bench holding dumbbells. Step up with one foot, driving through that leg to stand on top. Step down with control and alternate legs.",
+        "es": "Párate frente a un cajón o banco sosteniendo mancuernas. Sube con un pie, empujando a través de esa pierna para pararte arriba. Baja con control y alterna piernas."
+      },
+      "feel": {
+        "en": "The stepping leg's quad does all the work — don't push off the back foot. Higher boxes increase quad and glute demand. Each leg should burn equally.",
+        "es": "El cuádriceps de la pierna que sube hace todo el trabajo — no empujes con el pie trasero. Cajas más altas aumentan la demanda de cuádriceps y glúteos. Cada pierna debe quemar igual."
+      },
+      "sets": { "strength": "4x6 per leg", "hypertrophy": "3x10-12 per leg", "endurance": "3x12-15 per leg" }
+    },
+
+    {
+      "id": "hamstrings_01",
+      "name": { "en": "Romanian Deadlift", "es": "Peso Muerto Rumano" },
+      "equipment": "barbell",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "lower_back"],
+      "form": {
+        "en": "Stand holding bar at hip level, slight knee bend. Hinge at hips pushing them back, lowering bar along legs until you feel a deep hamstring stretch. Drive hips forward to return.",
+        "es": "Párate sosteniendo la barra a nivel de cadera, ligera flexión de rodillas. Bisagra en caderas empujándolas atrás, bajando la barra a lo largo de las piernas hasta sentir estiramiento profundo. Empuja las caderas al frente para regresar."
+      },
+      "feel": {
+        "en": "Deep hamstring stretch on the way down — that's your signal to reverse. Glutes and hamstrings fire together to bring you back up. Lower back stays neutral, not rounded.",
+        "es": "Estiramiento profundo de isquiotibiales al bajar — esa es tu señal para revertir. Glúteos e isquiotibiales se activan juntos para regresarte. La espalda baja permanece neutra, no redondeada."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "hamstrings_02",
+      "name": { "en": "Lying Leg Curl", "es": "Curl de Piernas Acostado" },
+      "equipment": "leg curl machine",
+      "primary": ["hamstrings"],
+      "secondary": ["calves"],
+      "form": {
+        "en": "Lie face down on machine, ankles under roller pad. Curl heels toward glutes squeezing hamstrings hard. Lower with control without letting weight stack rest.",
+        "es": "Acuéstate boca abajo en la máquina, tobillos bajo el rodillo. Curl los talones hacia los glúteos apretando isquiotibiales. Baja con control sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "Hamstrings isolate completely. You should feel them contract hard at the top near your glutes and a controlled stretch as you lower back down.",
+        "es": "Los isquiotibiales se aíslan completamente. Debes sentirlos contraerse fuerte arriba cerca de los glúteos y un estiramiento controlado al bajar."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "hamstrings_03",
+      "name": { "en": "Nordic Curl", "es": "Curl Nórdico" },
+      "equipment": "bodyweight, anchor point",
+      "primary": ["hamstrings"],
+      "secondary": [],
+      "form": {
+        "en": "Kneel with ankles anchored, body upright. Lower yourself forward as slowly as possible using hamstring control. Push off floor lightly to return if needed.",
+        "es": "Arrodíllate con tobillos anclados, cuerpo erguido. Baja hacia adelante lo más lento posible usando control de isquiotibiales. Empuja ligeramente del suelo para regresar si es necesario."
+      },
+      "feel": {
+        "en": "Extreme eccentric hamstring loading. You should feel the hamstrings fighting to control your descent. The hardest part is the last few inches before the floor.",
+        "es": "Carga excéntrica extrema de isquiotibiales. Debes sentir los isquiotibiales luchando por controlar tu descenso. La parte más difícil son los últimos centímetros antes del suelo."
+      },
+      "sets": { "strength": "4x4-6", "hypertrophy": "3x6-8", "endurance": "3x8-12" }
+    },
+    {
+      "id": "hamstrings_04",
+      "name": { "en": "Good Mornings", "es": "Buenos Días" },
+      "equipment": "barbell",
+      "primary": ["hamstrings"],
+      "secondary": ["lower_back", "glutes"],
+      "form": {
+        "en": "Bar on upper back like a squat, slight knee bend. Hinge forward at hips until torso is near parallel to floor. Drive hips forward to stand back up.",
+        "es": "Barra en la espalda superior como sentadilla, ligera flexión de rodillas. Bisagra hacia adelante en las caderas hasta que el torso esté casi paralelo al suelo. Empuja las caderas al frente para pararte."
+      },
+      "feel": {
+        "en": "Similar to RDL but with bar on back. Deep hamstring and glute stretch at the bottom. Lower back works isometrically to maintain spinal position.",
+        "es": "Similar al peso muerto rumano pero con barra en la espalda. Estiramiento profundo de isquiotibiales y glúteos abajo. La espalda baja trabaja isométricamente para mantener la posición espinal."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "hamstrings_05",
+      "name": { "en": "Sumo Deadlift", "es": "Peso Muerto Sumo" },
+      "equipment": "barbell",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "quadriceps", "lower_back"],
+      "form": {
+        "en": "Wide stance, toes pointed out 45 degrees, grip inside knees. Push floor away while pulling chest up simultaneously. Lock out with hips fully extended.",
+        "es": "Postura amplia, dedos apuntando a 45 grados, agarre dentro de las rodillas. Empuja el suelo mientras jalas el pecho arriba simultáneamente. Bloquea con caderas completamente extendidas."
+      },
+      "feel": {
+        "en": "Inner hamstrings and adductors work hard in the wide stance. You should feel the load distributed more evenly across the posterior chain than conventional.",
+        "es": "Isquiotibiales internos y aductores trabajan fuerte en la postura amplia. Debes sentir la carga distribuida más uniformemente en la cadena posterior que el convencional."
+      },
+      "sets": { "strength": "5x5", "hypertrophy": "4x6-8", "endurance": "3x10-12" }
+    },
+    {
+      "id": "hamstrings_06",
+      "name": { "en": "Cable Pull-Through", "es": "Jalón entre Piernas con Cable" },
+      "equipment": "cable machine, rope attachment",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "lower_back"],
+      "form": {
+        "en": "Stand facing away from low cable, rope between legs. Hinge at hips with soft knees until you feel hamstring stretch. Squeeze glutes to drive hips forward.",
+        "es": "Párate de espaldas a la polea baja, cuerda entre las piernas. Bisagra en caderas con rodillas suaves hasta sentir estiramiento de isquiotibiales. Aprieta glúteos para empujar caderas al frente."
+      },
+      "feel": {
+        "en": "The cable provides constant tension through the hinge. You should feel hamstrings stretch at the bottom and glutes squeeze hard at the top.",
+        "es": "El cable proporciona tensión constante durante la bisagra. Debes sentir los isquiotibiales estirarse abajo y los glúteos apretar fuerte arriba."
+      },
+      "sets": { "strength": "4x8-10", "hypertrophy": "3x12-15", "endurance": "3x15-20" }
+    },
+    {
+      "id": "hamstrings_07",
+      "name": { "en": "Glute Ham Raise", "es": "Elevación Glúteo-Isquiotibial" },
+      "equipment": "GHD machine",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "lower_back"],
+      "form": {
+        "en": "Set up in GHD with knees on pad. Lower torso forward under control, then curl yourself back up using hamstrings. Finish with torso vertical.",
+        "es": "Colócate en la GHD con rodillas en la almohadilla. Baja el torso hacia adelante con control, luego enróscate de regreso usando isquiotibiales. Termina con torso vertical."
+      },
+      "feel": {
+        "en": "Hamstrings and glutes work through a massive range of motion. You should feel both the knee flexion and hip extension portions distinctly.",
+        "es": "Isquiotibiales y glúteos trabajan a través de un rango masivo de movimiento. Debes sentir tanto la flexión de rodilla como la extensión de cadera claramente."
+      },
+      "sets": { "strength": "4x6", "hypertrophy": "3x8-10", "endurance": "3x10-12" }
+    },
+    {
+      "id": "hamstrings_08",
+      "name": { "en": "Single Leg Romanian Deadlift", "es": "Peso Muerto Rumano a Una Pierna" },
+      "equipment": "dumbbell",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "core"],
+      "form": {
+        "en": "Stand on one leg holding dumbbell. Hinge forward at hip, extending free leg behind for balance. Lower until you feel hamstring stretch, then drive hip forward to stand.",
+        "es": "Párate en una pierna sosteniendo mancuerna. Bisagra al frente en la cadera, extendiendo la pierna libre atrás para balance. Baja hasta sentir estiramiento de isquiotibial, luego empuja la cadera al frente."
+      },
+      "feel": {
+        "en": "Each hamstring works independently with added balance challenge. You should feel a deep unilateral stretch and strong stabilizer engagement.",
+        "es": "Cada isquiotibial trabaja independientemente con desafío de balance añadido. Debes sentir un estiramiento unilateral profundo y fuerte activación de estabilizadores."
+      },
+      "sets": { "strength": "4x6 per leg", "hypertrophy": "3x8-10 per leg", "endurance": "3x12-15 per leg" }
+    },
+    {
+      "id": "hamstrings_09",
+      "name": { "en": "Swiss Ball Hamstring Curl", "es": "Curl de Isquiotibiales con Pelota Suiza" },
+      "equipment": "Swiss ball",
+      "primary": ["hamstrings"],
+      "secondary": ["glutes", "core"],
+      "form": {
+        "en": "Lie on back, heels on Swiss ball, hips raised. Curl ball toward glutes by bending knees while keeping hips elevated. Extend legs back out with control.",
+        "es": "Acuéstate boca arriba, talones en la pelota suiza, caderas elevadas. Curl la pelota hacia los glúteos flexionando rodillas mientras mantienes caderas elevadas. Extiende las piernas con control."
+      },
+      "feel": {
+        "en": "Hamstrings must work against instability which increases the challenge. You should feel them burning plus your core fighting to keep hips stable.",
+        "es": "Los isquiotibiales deben trabajar contra la inestabilidad lo cual aumenta el desafío. Debes sentirlos quemar más el core luchando por mantener las caderas estables."
+      },
+      "sets": { "strength": "4x8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },
+    {
+      "id": "hamstrings_10",
+      "name": { "en": "Seated Leg Curl", "es": "Curl de Piernas Sentado" },
+      "equipment": "seated leg curl machine",
+      "primary": ["hamstrings"],
+      "secondary": [],
+      "form": {
+        "en": "Sit in machine with legs extended, pad above ankles. Curl heels under the seat squeezing hamstrings. Return to extension slowly without letting stack rest.",
+        "es": "Siéntate en la máquina con piernas extendidas, almohadilla sobre los tobillos. Curl los talones bajo el asiento apretando isquiotibiales. Regresa a extensión lentamente sin dejar que las pesas descansen."
+      },
+      "feel": {
+        "en": "The seated position pre-stretches the hamstrings giving a different stimulus than lying curls. You should feel more tension in the stretched position.",
+        "es": "La posición sentada pre-estira los isquiotibiales dando un estímulo diferente al curl acostado. Debes sentir más tensión en la posición estirada."
+      },
+      "sets": { "strength": "4x6-8", "hypertrophy": "3x10-12", "endurance": "3x12-15" }
+    },

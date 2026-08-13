@@ -1,0 +1,118 @@
+{
+  "version": "1.0.0",
+  "language": ["en", "es"],
+  "muscleGroups": [
+    {
+      "id": "chest",
+      "name": { "en": "Chest", "es": "Pecho" },
+      "description": {
+        "en": "Pectoralis major and minor — responsible for pushing movements and arm adduction",
+        "es": "Pectoral mayor y menor — responsable de movimientos de empuje y aducción del brazo"
+      }
+    },
+    {
+      "id": "back",
+      "name": { "en": "Back", "es": "Espalda" },
+      "description": {
+        "en": "Latissimus dorsi, rhomboids, trapezius — responsible for pulling movements and posture",
+        "es": "Dorsal ancho, romboides, trapecio — responsable de movimientos de tracción y postura"
+      }
+    },
+    {
+      "id": "shoulders",
+      "name": { "en": "Shoulders", "es": "Hombros" },
+      "description": {
+        "en": "Anterior, lateral, and posterior deltoids — responsible for arm elevation and rotation",
+        "es": "Deltoides anterior, lateral y posterior — responsable de elevación y rotación del brazo"
+      }
+    },
+    {
+      "id": "biceps",
+      "name": { "en": "Biceps", "es": "Bíceps" },
+      "description": {
+        "en": "Biceps brachii — responsible for elbow flexion and forearm supination",
+        "es": "Bíceps braquial — responsable de flexión del codo y supinación del antebrazo"
+      }
+    },
+    {
+      "id": "triceps",
+      "name": { "en": "Triceps", "es": "Tríceps" },
+      "description": {
+        "en": "Triceps brachii — responsible for elbow extension and pushing power",
+        "es": "Tríceps braquial — responsable de extensión del codo y fuerza de empuje"
+      }
+    },
+    {
+      "id": "quadriceps",
+      "name": { "en": "Quadriceps", "es": "Cuádriceps" },
+      "description": {
+        "en": "Four-headed muscle group on the front of the thigh — responsible for knee extension",
+        "es": "Grupo muscular de cuatro cabezas en la parte frontal del muslo — responsable de extensión de rodilla"
+      }
+    },
+    {
+      "id": "hamstrings",
+      "name": { "en": "Hamstrings", "es": "Isquiotibiales" },
+      "description": {
+        "en": "Biceps femoris, semitendinosus, semimembranosus — responsible for knee flexion and hip extension",
+        "es": "Bíceps femoral, semitendinoso, semimembranoso — responsable de flexión de rodilla y extensión de cadera"
+      }
+    },
+    {
+      "id": "glutes",
+      "name": { "en": "Glutes", "es": "Glúteos" },
+      "description": {
+        "en": "Gluteus maximus, medius, and minimus — responsible for hip extension, abduction, and rotation",
+        "es": "Glúteo mayor, medio y menor — responsable de extensión, abducción y rotación de cadera"
+      }
+    },
+    {
+      "id": "calves",
+      "name": { "en": "Calves", "es": "Pantorrillas" },
+      "description": {
+        "en": "Gastrocnemius and soleus — responsible for ankle plantarflexion",
+        "es": "Gastrocnemio y sóleo — responsable de la flexión plantar del tobillo"
+      }
+    },
+    {
+      "id": "core",
+      "name": { "en": "Core", "es": "Core / Abdominales" },
+      "description": {
+        "en": "Rectus abdominis, obliques, transverse abdominis — responsible for trunk stability and flexion",
+        "es": "Recto abdominal, oblicuos, transverso abdominal — responsable de estabilidad y flexión del tronco"
+      }
+    },
+    {
+      "id": "forearms",
+      "name": { "en": "Forearms", "es": "Antebrazos" },
+      "description": {
+        "en": "Wrist flexors and extensors, brachioradialis — responsible for grip strength and wrist movement",
+        "es": "Flexores y extensores de muñeca, braquiorradial — responsable de fuerza de agarre y movimiento de muñeca"
+      }
+    },
+    {
+      "id": "traps",
+      "name": { "en": "Traps", "es": "Trapecios" },
+      "description": {
+        "en": "Upper, middle, and lower trapezius — responsible for scapular elevation, retraction, and depression",
+        "es": "Trapecio superior, medio e inferior — responsable de elevación, retracción y depresión escapular"
+      }
+    },
+    {
+      "id": "lower_back",
+      "name": { "en": "Lower Back", "es": "Espalda Baja" },
+      "description": {
+        "en": "Erector spinae group — responsible for spinal extension and postural support",
+        "es": "Grupo erector de la columna — responsable de extensión espinal y soporte postural"
+      }
+    },
+    {
+      "id": "hip_flexors",
+      "name": { "en": "Hip Flexors", "es": "Flexores de Cadera" },
+      "description": {
+        "en": "Iliopsoas and rectus femoris — responsible for hip flexion and leg elevation",
+        "es": "Iliopsoas y recto femoral — responsable de flexión de cadera y elevación de pierna"
+      }
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Plan Generator — For Personal Trainers</title>
+    <style>
+:root {
+    --bg-deep: #0d1117;
+    --bg-card: #161b22;
+    --bg-elevated: #1c2430;
+    --accent: #ff9900;
+    --accent-hover: #ffad33;
+    --accent-dim: rgba(255, 153, 0, 0.12);
+    --green: #10b981;
+    --blue: #4da6e8;
+    --text-primary: rgba(255, 255, 255, 0.95);
+    --text-secondary: rgba(255, 255, 255, 0.72);
+    --text-tertiary: rgba(255, 255, 255, 0.45);
+    --border: rgba(255, 255, 255, 0.06);
+    --radius: 12px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: 'Segoe UI Variable', 'Segoe UI', -apple-system, sans-serif;
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+.hero { text-align: center; padding: 60px 20px 40px; }
+.hero h1 { font-size: 2.4rem; font-weight: 800; margin-bottom: 16px; line-height: 1.2; }
+.hero h1 span { color: var(--accent); }
+.hero p {
+    font-size: 1.1rem; color: var(--text-secondary);
+    max-width: 600px; margin: 0 auto 32px;
+}
+.btn-buy {
+    display: inline-block; padding: 16px 40px;
+    background: var(--accent); color: #000;
+    font-size: 1.1rem; font-weight: 700;
+    border-radius: 8px; text-decoration: none;
+    transition: background 0.2s;
+}
+.btn-buy:hover { background: var(--accent-hover); }
+.price { font-size: 0.9rem; color: var(--text-tertiary); margin-top: 10px; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <h1>Generate Complete Fitness Plans<br><span>In Seconds, Not Hours</span></h1>
+            <p>A bilingual (EN/ES) web app for personal trainers. Enter client info, get a full workout + meal plan + macros instantly. No internet required. Works on your phone.</p>
+            <a href="#" class="btn-buy">Get It Now — $15</a>
+            <p class="price">One-time purchase. No subscription. Yours forever.</p>
+        </section>
+
+        <section class="features">
+            <h2>What You Get</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Plan Generation</h3>
+                    <p>Enter age, weight, height, goal, and training days. Get a complete plan with BMR, TDEE, macros, workout split, meal plan, and recovery protocol in one click.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌎</div>
+                    <h3>Bilingual (EN/ES)</h3>
+                    <p>Every label, exercise name, and instruction in both English and Spanish. Perfect for trainers working with Spanish-speaking clients in the US or LATAM.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Works on Any Device</h3>
+                    <p>Responsive design — use it on your phone at the gym, your tablet during consultations, or your laptop at home. No app store needed.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>100% Offline & Private</h3>
+                    <p>Zero internet required after download. Client data stays on YOUR device. No cloud, no accounts, no subscriptions. Just open and use.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Science-Based Calculations</h3>
+                    <p>Mifflin-St Jeor BMR, activity-adjusted TDEE, goal-specific caloric targets, and macro splits based on sports nutrition research.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📤</div>
+                    <h3>Share Instantly</h3>
+                    <p>Copy plan to clipboard, email it, or export as a clean PDF. Send to clients via WhatsApp, text, or email in seconds.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="includes">
+            <h2>What's Inside</h2>
+            <ul class="includes-list">
+                <li>✓ Full workout plan generator (3-6 day splits based on experience level)</li>
+                <li>✓ Macro calculator with 3 diet styles (IIFYM, Clean, Keto)</li>
+                <li>✓ 5-meal daily nutrition plan matched to exact calorie targets</li>
+                <li>✓ Exercise library with 80+ exercises, cues, and muscle targeting</li>
+                <li>✓ Interactive body map — click a muscle, see the exercises</li>
+                <li>✓ Client management — save multiple clients, track weight over time</li>
+                <li>✓ Progress tracking with weekly rate and visual history</li>
+                <li>✓ Recovery protocols (sleep, stretching, hydration, supplements)</li>
+                <li>✓ PDF export with professional formatting</li>
+                <li>✓ Feedback system to log client change requests</li>
+            </ul>
+        </section>
+
+        <section class="who">
+            <h2>Built For</h2>
+            <div class="who-grid">
+                <div class="who-card">
+                    <strong>Independent Personal Trainers</strong>
+                    <p>Stop spending 30 minutes writing plans by hand. Generate, customize, and send in under 2 minutes.</p>
+                </div>
+                <div class="who-card">
+                    <strong>Online Coaches</strong>
+                    <p>Manage multiple remote clients. Generate plans, share via link or PDF, track their progress — all from one app.</p>
+                </div>
+                <div class="who-card">
+                    <strong>Gym Owners in LATAM</strong>
+                    <p>Full Spanish support. Give your trainers a professional tool that works without WiFi.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Start Generating Plans Today</h2>
+            <p>One download. Works forever. No internet. No subscription.</p>
+            <a href="#" class="btn-buy">Get It Now — $15</a>
+            <p class="price">Instant download. Unzip and open in your browser. That's it.</p>
+        </section>
+    </div>
+
+    <style>
+/* Features */
+.features, .includes, .who, .cta { margin-top: 60px; }
+.features h2, .includes h2, .who h2, .cta h2 {
+    font-size: 1.6rem; font-weight: 700; margin-bottom: 24px; text-align: center;
+}
+.feature-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+}
+.feature-card {
+    padding: 20px; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: var(--radius);
+}
+.feature-icon { font-size: 1.6rem; margin-bottom: 10px; }
+.feature-card h3 { font-size: 1rem; margin-bottom: 8px; color: var(--text-primary); }
+.feature-card p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; }
+
+/* Includes */
+.includes-list {
+    list-style: none; max-width: 600px; margin: 0 auto;
+}
+.includes-list li {
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+    font-size: 0.95rem; color: var(--text-secondary);
+}
+.includes-list li:last-child { border-bottom: none; }
+
+/* Who */
+.who-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+}
+.who-card {
+    padding: 20px; background: var(--bg-card);
+    border: 1px solid var(--border); border-radius: var(--radius);
+}
+.who-card strong { color: var(--accent); display: block; margin-bottom: 8px; }
+.who-card p { font-size: 0.85rem; color: var(--text-secondary); }
+
+/* CTA */
+.cta { text-align: center; padding: 40px 0 60px; }
+.cta p { color: var(--text-secondary); margin-bottom: 20px; }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero h1 { font-size: 1.6rem; }
+    .feature-grid, .who-grid { grid-template-columns: 1fr; }
+}
+    </style>
+</body>
+</html>

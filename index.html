@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Plan Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="nav-bar">
+            <div class="nav-brand">💪 Fitness Plan Generator</div>
+            <div class="nav-actions">
+                <button id="lang-toggle" class="lang-toggle" title="Switch language">🇪🇸 ES</button>
+                <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">☰</button>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <button class="nav-btn active" data-view="clients" data-es="Clientes" data-en="Clients">Clientes</button>
+                <button class="nav-btn" data-view="generator" data-es="Generar Plan" data-en="Generate Plan">Generar Plan</button>
+                <button class="nav-btn" data-view="exercises" data-es="Ejercicios" data-en="Exercises">Ejercicios</button>
+                <button class="nav-btn" data-view="feedback" data-es="Retroalimentación" data-en="Feedback">Retroalimentación</button>
+                <button class="nav-btn" data-view="help" data-es="Instrucciones" data-en="Instructions">Instrucciones</button>
+            </div>
+        </nav>
+
+        <!-- Client Intake View -->
+        <section id="view-clients" class="view active">
+            <h2 data-es="Nuevo Cliente" data-en="New Client">Nuevo Cliente</h2>
+            <form id="client-form" class="form-grid">
+                <div class="form-group">
+                    <label data-es="Nombre" data-en="Name">Nombre</label>
+                    <input type="text" id="client-name" required>
+                </div>
+                <div class="form-group">
+                    <label data-es="Edad" data-en="Age">Edad</label>
+                    <input type="number" id="client-age" min="14" max="80" required>
+                </div>
+                <div class="form-group">
+                    <label data-es="Sexo" data-en="Sex">Sexo</label>
+                    <select id="client-sex" required>
+                        <option value="" data-es="Seleccionar..." data-en="Select...">Seleccionar...</option>
+                        <option value="male" data-es="Masculino" data-en="Male">Masculino</option>
+                        <option value="female" data-es="Femenino" data-en="Female">Femenino</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Altura (cm)" data-en="Height (cm)">Altura (cm)</label>
+                    <input type="number" id="client-height" min="100" max="250" required>
+                </div>
+                <div class="form-group">
+                    <label data-es="Peso (kg)" data-en="Weight (kg)">Peso (kg)</label>
+                    <input type="number" id="client-weight" min="30" max="250" step="0.1" required>
+                </div>
+                <div class="form-group">
+                    <label data-es="Meta" data-en="Goal">Meta</label>
+                    <select id="client-goal" required>
+                        <option value="" data-es="Seleccionar..." data-en="Select...">Seleccionar...</option>
+                        <option value="fat-loss" data-es="Pérdida de grasa" data-en="Fat Loss">Pérdida de grasa</option>
+                        <option value="muscle-gain" data-es="Ganancia muscular" data-en="Muscle Gain">Ganancia muscular</option>
+                        <option value="recomp" data-es="Recomposición" data-en="Recomp">Recomposición</option>
+                        <option value="strength" data-es="Fuerza" data-en="Strength">Fuerza</option>
+                        <option value="endurance" data-es="Resistencia" data-en="Endurance">Resistencia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Estilo de Dieta" data-en="Diet Style">Estilo de Dieta</label>
+                    <select id="client-diet" required>
+                        <option value="" data-es="Seleccionar..." data-en="Select...">Seleccionar...</option>
+                        <option value="iifym">IIFYM (Flexible)</option>
+                        <option value="clean" data-es="Comida Limpia" data-en="Clean Eating">Comida Limpia</option>
+                        <option value="keto">Keto</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Días de Entrenamiento por Semana" data-en="Training Days per Week">Días de Entrenamiento por Semana</label>
+                    <select id="client-days" required>
+                        <option value="3" data-es="3 días" data-en="3 days">3 días</option>
+                        <option value="4" data-es="4 días" data-en="4 days">4 días</option>
+                        <option value="5" data-es="5 días" data-en="5 days">5 días</option>
+                        <option value="6" data-es="6 días" data-en="6 days">6 días</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Nivel" data-en="Experience Level">Nivel</label>
+                    <select id="client-level" required>
+                        <option value="" data-es="Seleccionar..." data-en="Select...">Seleccionar...</option>
+                        <option value="beginner" data-es="Principiante" data-en="Beginner">Principiante</option>
+                        <option value="intermediate" data-es="Intermedio" data-en="Intermediate">Intermedio</option>
+                        <option value="advanced" data-es="Avanzado" data-en="Advanced">Avanzado</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Lesiones (opcional)" data-en="Injuries (optional)">Lesiones (opcional)</label>
+                    <textarea id="client-injuries" data-es-placeholder="Describir lesiones o limitaciones..." data-en-placeholder="Describe injuries or limitations..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label data-es="Alergias Alimentarias (opcional)" data-en="Food Allergies (optional)">Alergias Alimentarias (opcional)</label>
+                    <textarea id="client-allergies" data-es-placeholder="Listar alergias o restricciones..." data-en-placeholder="List allergies or restrictions..."></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit" class="btn-primary" data-es="Guardar Cliente" data-en="Save Client">Guardar Cliente</button>
+                </div>
+            </form>
+
+            <h3 data-es="Clientes Guardados" data-en="Saved Clients">Clientes Guardados</h3>
+            <div id="client-list" class="client-list"></div>
+
+            <!-- Progress Tracking -->
+            <div id="progress-section" class="progress-section hidden">
+                <h3 id="progress-client-name"></h3>
+                <div class="progress-controls">
+                    <div class="form-group">
+                        <label data-es="Nuevo Peso (kg)" data-en="New Weight (kg)">Nuevo Peso (kg)</label>
+                        <input type="number" id="progress-weight" step="0.1" min="30" max="250">
+                    </div>
+                    <button class="btn-primary" id="btn-log-weight" data-es="Registrar Peso" data-en="Log Weight">Registrar Peso</button>
+                </div>
+                <div id="weight-history" class="weight-history"></div>
+                <div id="plan-history" class="plan-history"></div>
+            </div>
+        </section>
+
+        <!-- Plan Generator View -->
+        <section id="view-generator" class="view">
+            <h2 data-es="Generar Plan" data-en="Generate Plan">Generar Plan</h2>
+            <div class="generator-controls">
+                <div class="form-group">
+                    <label data-es="Seleccionar Cliente" data-en="Select Client">Seleccionar Cliente</label>
+                    <select id="gen-client"></select>
+                </div>
+                <button id="btn-generate" class="btn-primary" data-es="Generar Plan Completo" data-en="Generate Full Plan">Generar Plan Completo</button>
+            </div>
+
+            <div id="plan-output" class="plan-output hidden">
+                <div class="plan-section">
+                    <h3 data-es="📊 Perfil" data-en="📊 Profile">📊 Perfil</h3>
+                    <div id="plan-profile"></div>
+                </div>
+                <div class="plan-section">
+                    <h3 data-es="🏋️ Plan de Entrenamiento" data-en="🏋️ Workout Plan">🏋️ Plan de Entrenamiento</h3>
+                    <div id="plan-workout"></div>
+                </div>
+                <div class="plan-section">
+                    <h3 data-es="🥗 Plan de Alimentación" data-en="🥗 Meal Plan">🥗 Plan de Alimentación</h3>
+                    <div id="plan-meals"></div>
+                </div>
+                <div class="plan-section">
+                    <h3 data-es="🧘 Recuperación" data-en="🧘 Recovery">🧘 Recuperación</h3>
+                    <div id="plan-recovery"></div>
+                </div>
+                <div class="plan-actions">
+                    <button id="btn-copy-plan" class="btn-secondary" data-es="📋 Copiar Plan" data-en="📋 Copy Plan">📋 Copiar Plan</button>
+                    <button id="btn-email-plan" class="btn-secondary" data-es="📧 Enviar por Email" data-en="📧 Email Plan">📧 Enviar por Email</button>
+                    <button id="btn-pdf-plan" class="btn-secondary" data-es="📄 Exportar PDF" data-en="📄 Export PDF">📄 Exportar PDF</button>
+                    <button id="btn-share-link" class="btn-secondary" data-es="🔗 Crear Enlace" data-en="🔗 Create Link">🔗 Crear Enlace</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exercise Library View -->
+        <section id="view-exercises" class="view">
+            <h2 data-es="Biblioteca de Ejercicios" data-en="Exercise Library">Biblioteca de Ejercicios</h2>
+            
+            <!-- Interactive Body Map -->
+            <div class="body-map-container">
+                <h4 data-es="Haz clic en un músculo" data-en="Click a muscle">Haz clic en un músculo</h4>
+                <div class="body-map-toggle">
+                    <button class="btn-toggle active" id="btn-front" data-es="Frente" data-en="Front">Frente</button>
+                    <button class="btn-toggle" id="btn-back" data-es="Espalda" data-en="Back">Espalda</button>
+                </div>
+                <div class="body-map">
+                    <img src="images/body2.jpg" alt="Body Map Front" class="body-map-img" id="body-map-img">
+                </div>
+                <div id="body-map-selection" class="body-map-info"></div>
+            </div>
+
+            <div class="muscle-selector">
+                <h4 data-es="O selecciona aquí" data-en="Or select here">O selecciona aquí</h4>
+                <div id="muscle-buttons" class="muscle-grid"></div>
+            </div>
+            <div id="exercise-list" class="exercise-cards"></div>
+        </section>
+
+        <!-- Feedback View -->
+        <section id="view-feedback" class="view">
+            <h2 data-es="Retroalimentación del Cliente" data-en="Client Feedback">Retroalimentación del Cliente</h2>
+            <form id="feedback-form" class="form-grid">
+                <div class="form-group">
+                    <label data-es="Cliente" data-en="Client">Cliente</label>
+                    <select id="feedback-client"></select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Tipo" data-en="Type">Tipo</label>
+                    <select id="feedback-type">
+                        <option value="adjust" data-es="Ajustar" data-en="Adjust">Ajustar</option>
+                        <option value="add" data-es="Agregar" data-en="Add">Agregar</option>
+                        <option value="remove" data-es="Eliminar" data-en="Remove">Eliminar</option>
+                        <option value="general" data-es="Comentario General" data-en="General Comment">Comentario General</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label data-es="Área" data-en="Area">Área</label>
+                    <select id="feedback-area">
+                        <option value="workout" data-es="Entrenamiento" data-en="Workout">Entrenamiento</option>
+                        <option value="diet" data-es="Dieta" data-en="Diet">Dieta</option>
+                        <option value="recovery" data-es="Recuperación" data-en="Recovery">Recuperación</option>
+                        <option value="schedule" data-es="Horario" data-en="Schedule">Horario</option>
+                    </select>
+                </div>
+                <div class="form-group full-width">
+                    <label data-es="Detalle" data-en="Details">Detalle</label>
+                    <textarea id="feedback-detail" rows="4" data-es-placeholder="Describir los cambios necesarios..." data-en-placeholder="Describe the needed changes..."></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit" class="btn-primary" data-es="Enviar Retroalimentación" data-en="Submit Feedback">Enviar Retroalimentación</button>
+                </div>
+            </form>
+            <h3 data-es="Historial" data-en="History">Historial</h3>
+            <div id="feedback-history"></div>
+        </section>
+
+        <!-- Help/Instructions View -->
+        <section id="view-help" class="view">
+            <h2 data-es="Instrucciones de Uso" data-en="How to Use">Instrucciones de Uso</h2>
+            <div class="instructions">
+                <div class="instruction-block" data-lang-block="es">
+                    <h3>📖 Cómo Usar Esta Aplicación</h3>
+                    <ol>
+                        <li><strong>Crear un Cliente:</strong> Ve a la pestaña "Clientes" e ingresa toda la información del cliente (edad, peso, altura, meta, etc.)</li>
+                        <li><strong>Generar un Plan:</strong> Ve a "Generar Plan", selecciona el cliente, y haz clic en "Generar Plan Completo". El sistema calculará automáticamente sus macros, plan de entrenamiento y comidas.</li>
+                        <li><strong>Revisar Ejercicios:</strong> En la pestaña "Ejercicios" puedes ver todos los ejercicios disponibles por grupo muscular con instrucciones de cómo realizarlos.</li>
+                        <li><strong>Recibir Retroalimentación:</strong> Cuando tu cliente quiera cambios, usa la pestaña "Retroalimentación" para registrar qué necesita ajustarse.</li>
+                        <li><strong>Compartir con el Cliente:</strong> Después de generar un plan, usa los botones para copiar, enviar por email, o crear un enlace que puedas enviar por WhatsApp o mensaje de texto.</li>
+                    </ol>
+                </div>
+                <div class="instruction-block" data-lang-block="en" style="display:none;">
+                    <h3>📖 How to Use This App</h3>
+                    <ol>
+                        <li><strong>Create a Client:</strong> Go to the "Clients" tab and enter all client info (age, weight, height, goal, etc.)</li>
+                        <li><strong>Generate a Plan:</strong> Go to "Generate Plan", select the client, and click "Generate Full Plan". The system will auto-calculate macros, workout, and meal plans.</li>
+                        <li><strong>Browse Exercises:</strong> In the "Exercises" tab you can view all available exercises by muscle group with instructions.</li>
+                        <li><strong>Receive Feedback:</strong> When your client wants changes, use the "Feedback" tab to log what needs adjusting.</li>
+                        <li><strong>Share with Client:</strong> After generating a plan, use the buttons to copy, email, or create a link to send via WhatsApp or text.</li>
+                    </ol>
+                </div>
+
+                <div class="instruction-block" data-lang-block="es">
+                    <h3>📤 Cómo Compartir con tus Clientes</h3>
+                    <ol>
+                        <li><strong>Por Email:</strong> Haz clic en "Enviar por Email" — se abrirá tu aplicación de correo con el plan formateado listo para enviar.</li>
+                        <li><strong>Por WhatsApp/Texto:</strong> Haz clic en "Copiar Plan" y pégalo directamente en la conversación con tu cliente.</li>
+                        <li><strong>Por Enlace:</strong> Haz clic en "Crear Enlace" — genera una página web temporal que tu cliente puede abrir en su teléfono.</li>
+                    </ol>
+                </div>
+                <div class="instruction-block" data-lang-block="en" style="display:none;">
+                    <h3>📤 How to Share with Clients</h3>
+                    <ol>
+                        <li><strong>By Email:</strong> Click "Email Plan" — opens your mail app with the formatted plan ready to send.</li>
+                        <li><strong>By WhatsApp/Text:</strong> Click "Copy Plan" and paste directly into your client's conversation.</li>
+                        <li><strong>By Link:</strong> Click "Create Link" — generates a temporary webpage your client can open on their phone.</li>
+                    </ol>
+                </div>
+
+                <div class="instruction-block" data-lang-block="es">
+                    <h3>🔄 Cómo Ajustar un Plan</h3>
+                    <ol>
+                        <li>El cliente te dice qué no le funciona (muy pesado, no le gusta un ejercicio, alergia a un alimento)</li>
+                        <li>Ve a "Retroalimentación" y registra el cambio</li>
+                        <li>Regresa a "Generar Plan" y genera una versión actualizada</li>
+                        <li>Comparte el nuevo plan con el cliente</li>
+                    </ol>
+                </div>
+                <div class="instruction-block" data-lang-block="en" style="display:none;">
+                    <h3>🔄 How to Adjust a Plan</h3>
+                    <ol>
+                        <li>Client tells you what isn't working (too heavy, doesn't like an exercise, food allergy)</li>
+                        <li>Go to "Feedback" and log the change</li>
+                        <li>Go back to "Generate Plan" and create an updated version</li>
+                        <li>Share the new plan with the client</li>
+                    </ol>
+                </div>
+
+                <div class="instruction-block" data-lang-block="es">
+                    <h3>💡 Consejos</h3>
+                    <ul>
+                        <li>Actualiza el peso del cliente cada semana para mantener los cálculos precisos</li>
+                        <li>Usa la retroalimentación para trackear el progreso y ajustes</li>
+                        <li>Los planes se guardan localmente — no necesitas internet para generar</li>
+                    </ul>
+                </div>
+                <div class="instruction-block" data-lang-block="en" style="display:none;">
+                    <h3>💡 Tips</h3>
+                    <ul>
+                        <li>Update client weight weekly to keep calculations accurate</li>
+                        <li>Use feedback to track progress and adjustments</li>
+                        <li>Plans save locally — no internet needed to generate</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="data/exercises.js"></script>
+    <script src="data/meals.js"></script>
+    <script src="calculator.js"></script>
+    <script src="plan-generator.js"></script>
+    <script src="lang.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
