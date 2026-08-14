@@ -85,6 +85,12 @@ body {
     border-color: var(--accent);
 }
 
+.nav-btn-feedback {
+    opacity: 0.6;
+    font-size: 0.8rem;
+    border-style: dashed;
+}
+
 /* Views */
 .view {
     display: none;
@@ -643,7 +649,7 @@ body {
         border-top: 1px solid var(--border);
     }
 
-    .nav-links.show {
+    .nav-links.open {
         display: flex;
     }
 
