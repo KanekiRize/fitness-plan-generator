@@ -45,6 +45,15 @@ const App = {
   bindClientForm() {
     document.getElementById('client-form').addEventListener('submit', (e) => {
       e.preventDefault();
+      // Check required fields manually for better mobile UX
+      const required = ['client-name','client-age','client-sex','client-height','client-weight','client-goal','client-diet','client-level'];
+      const missing = required.filter(id => !document.getElementById(id).value);
+      if (missing.length) {
+        missing.forEach(id => document.getElementById(id).style.border = '2px solid #ff4444');
+        this.toast('⚠️ Completa todos los campos / Fill all fields');
+        setTimeout(() => missing.forEach(id => document.getElementById(id).style.border = ''), 3000);
+        return;
+      }
       const client = {
         id: Date.now(),
         name: document.getElementById('client-name').value,
@@ -651,6 +660,7 @@ ${plan.workout.days.map(day => `<div class="day"><h3>${day.name.es}</h3>${day.ex
   toast(msg) {
     const el = document.createElement('div');
     el.className = 'toast';
+    if (msg.includes('⚠️')) el.style.background = '#ef4444';
     el.textContent = msg;
     document.body.appendChild(el);
     setTimeout(() => el.remove(), 3000);
