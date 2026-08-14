@@ -7,6 +7,7 @@ const App = {
   currentPlan: null,
 
   init() {
+    this.warnIfInAppBrowser();
     this.bindNav();
     this.bindHamburger();
     this.bindClientForm();
@@ -15,6 +16,23 @@ const App = {
     this.renderClients();
     this.renderMuscleButtons();
     this.populateClientSelects();
+  },
+
+  warnIfInAppBrowser() {
+    const ua = navigator.userAgent || '';
+    const isInApp = /Instagram|FBAN|FBAV|Twitter|Line\//i.test(ua);
+    if (!isInApp) return;
+    const banner = document.createElement('div');
+    banner.className = 'inapp-warning';
+    banner.innerHTML = `
+      <span data-es="⚠️ Estás en el navegador de una app (Instagram/Facebook). Tus datos NO se guardarán aquí — toca ⋯ y selecciona 'Abrir en Safari' para guardar tus clientes de forma permanente."
+            data-en="⚠️ You're in an in-app browser (Instagram/Facebook). Your data will NOT save here — tap ⋯ and select 'Open in Safari' to save your clients permanently.">
+        ⚠️ Estás en el navegador de una app (Instagram/Facebook). Tus datos NO se guardarán aquí — toca ⋯ y selecciona 'Abrir en Safari' para guardar tus clientes de forma permanente.
+      </span>
+      <button class="inapp-warning-close" aria-label="Cerrar">✕</button>
+    `;
+    document.body.prepend(banner);
+    banner.querySelector('.inapp-warning-close').addEventListener('click', () => banner.remove());
   },
 
   bindHamburger() {
